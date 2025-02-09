@@ -77,7 +77,7 @@ public class LoginApplication implements ActionListener {
         if(getUserText.equals(userLogin) && getPasswordText.equals(userPassword)) {
             successLabel.setText("Success");
         } else {
-            notSuccessLabel.setText("Not success, try again");
+            successLabel.setText("Not success, try again");
         }
     }
 }
